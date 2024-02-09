@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+.Group{
+    display:none;
+}
+
+@media (max-width:600px){
+    body{
+        background-color: #F2F2F2;
+    }
+    ul{
+        display:none;
+    }
+    .Group{
+        display:block;
+        margin-right:20px;
+
+    }
+    header{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top:20px;
+    }
+    .vase{
+        height:300px;
+        width: 343px;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        padding:5px;
+    }
+    .width{
+        width:250px;
+        margin-top:10px;
+        margin-left:20px;
+    }
+    p{
+        margin-left:20px;
+    }
+    .red{
+        background-color: #F15D51;
+        color:#F2F2F2;
+        height:48px;
+        width:185px;
+        margin-left:20px;
+        margin-top:10px;
+        border:none;
+    }
+}
