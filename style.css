@@ -49,4 +49,36 @@
         margin-top:10px;
         border:none;
     }
+    .black{
+        background-color:#00001A;
+        height:329px;
+        width:343px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:20px;
+    }
+    .orange{
+        color:#EB6B0E; 
+      padding-top:20px; 
+      padding-left:20px;
+
+    }
+    .white{
+        color:#FFFDFA;
+        padding-left:20px;
+        padding-top:10px;
+    }
+    .silver{
+        color:silver;
+       
+    } 
+    .line{
+        width:100%;
+        background-color:silver;
+        border:solid 1px silver; 
+        margin-top:20px;
+    }
+    #grid1{
+        display:grid;
+    }
 }
