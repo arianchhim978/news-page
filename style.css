@@ -80,5 +80,28 @@
     }
     #grid1{
         display:grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left:20px;
+        margin-top:20px;
+        grid-template-areas: 
+        "image header"
+        ". p"
+        "image2 header2"
+        ". p2";
+       
+    }
+    .header{
+        grid-area:header;
+    }
+    .text{ 
+        grid-area:p;
+        margin-right:20px;
+        margin-left:0px;
+        margin-top: 5px;
+       
+
+    }
+    .image{
+        grid-area:image;
     }
 }
